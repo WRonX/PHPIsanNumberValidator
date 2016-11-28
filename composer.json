@@ -1,0 +1,27 @@
+{
+    "name": "wronx/php-isan-number-validator",
+    "type": "library",
+    "description": "A simple PHP class to validate and format ISAN numbers",
+    "keywords": ["php", "isan", "validator"],
+    "homepage": "https://github.com/WRonX/PHPIsanNumberValidator",
+    "license":"WTFPL",
+    "require": {
+        "php": ">5.4"
+    },
+    "require-dev": {
+        "php": ">5.4"
+    },
+    "authors": [
+        {
+            "name": "Marcin \"WRonX\" Wronka",
+            "email": "wronx@wronx.net",
+            "homepage": "http://wronx.net",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+             "WRonX\\Utils\\": "src/"
+        }
+    }
+}
