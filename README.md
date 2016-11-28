@@ -25,7 +25,7 @@ Seriously...? OK, OK...
 
 ##### Validating ISAN Number
 ```php
-use WRonX\IsanNumberValidator\IsanNumberValidator;
+use WRonX\Utils\IsanNumberValidator;
 // ...
 $isanNumber = '0000000160aa0004W00000000f';
 $isNumberValid = IsanNumberValidator::validate($isanNumber);
@@ -33,7 +33,7 @@ $isNumberValid = IsanNumberValidator::validate($isanNumber);
 
 ##### Formatting ISAN Number
 ```php
-use WRonX\IsanNumberValidator\IsanNumberValidator;
+use WRonX\Utils\IsanNumberValidator;
 // ...
 $isanNumber = '0000000160aa0004W00000000f';
 $formattedIsanNumber = IsanNumberValidator::format($isanNumber);
