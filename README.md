@@ -16,7 +16,7 @@ This work is free. You can redistribute it and/or modify it under the terms of t
 
 #### Installation and configuration:
 
-Just put it somewhere, OK?
+`php composer.phar require wronx/php-isan-number-validator "dev-master"`
 
 
 #### Usage
